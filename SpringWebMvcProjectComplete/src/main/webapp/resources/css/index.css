@@ -1,0 +1,105 @@
+@charset "UTF-8";
+div.container {
+  width: 390px;
+  height: 1030px;
+  background-image: linear-gradient(to top, #eeefea, #E6E7E4);
+  padding: 15px;
+  padding-top: 20px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.whales-fit {
+	width: 132px;
+	height: 22px;
+	font-family: NotoSansCJKkr;
+	font-size: 25px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 0.96;
+	letter-spacing: normal;
+	text-align: left;
+	color: #2f2429;
+}
+.btn-logout {/* 로그아웃 바깥쪽 상자 만들기*/
+  text-align: center;
+	width: 68px;
+	height: 26px;
+	border-radius: 3px;
+	background-color: #7e6b5a;
+}
+
+div.layer {
+  width: 360;
+  height: auto;
+  border-top: 1.2px solid #160f11;
+  text-align: center;
+  position: relative;
+  top: 40px;
+  left: 0px;
+}
+
+.profile-image{
+	width: 185px;
+	height: 170px;
+	object-fit: contain;
+}
+
+.profile-info {
+	width: 155px;
+	height: 70px;
+  text-align: center;
+	font-family: NotoSansCJKkr;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.2;
+	letter-spacing: normal;
+	color: #000000;
+  position: relative;
+  top: 10px;
+  left: 118px;
+}
+
+.btn-modify {
+	width: 70px;
+	height: 25px;
+  position: relative;
+  top: 20px;
+  left: 160px;
+}
+
+#which-size {
+  font-family: NotoSansCJKkr;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  padding-left: 10px;
+  color: #2f2429;
+}
+
+.category-box {
+  width: 115px;
+  height: 114px;
+  background-color: #ffffff;
+}
+
+table#tb {
+  width: 100%;
+  border-spacing: 3px;
+  border-style:solid;
+  border-width:1px
+}
+th, td {
+    /* 구분용. 이미지 삽입 시 삭제 */
+}
+
+.btn {
+  border: none;
+  background: none;
+}

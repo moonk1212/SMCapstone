@@ -1,0 +1,58 @@
+@charset "UTF-8";
+div.container {
+  width: 390px;
+  height: 1030px;
+  background-image: linear-gradient(to top, #eeefea, #E6E7E4);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+}
+
+#logo {
+  position: relative;
+  width: 173px;
+  height: 238px;
+  object-fit: contain;
+  top: 170px;
+  left: 109px;
+}
+
+#whales-fit {
+  position: absolute;
+  width: 260px;
+  height: 45px;
+  font-family: SegoeScript;
+  font-size: 42px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7e6b5a;
+  top: 425px;
+  left: 66px;
+}
+
+#line {
+  position: absolute;
+  top: 475px;
+  left: 66px;
+  width: 260px;
+  height: 20px;
+  font-family: NotoSansCJKkr;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: #443e42;
+}
+
+.btn {
+  position: relative;
+  top: 280px;
+  margin-bottom: 15px;
+  padding: 0;
+  border: none;
+  background: none;
+}

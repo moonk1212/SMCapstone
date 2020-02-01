@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.spring.mvc.user.repository.IItemSizeBottomDAO">
+	
+	<!-- DB컬럼명과 VO클래스의 필드가 다르므로 ResultMap 세팅 -->
+	<resultMap id="ItemSizeResultMap" type="com.spring.mvc.user.model.ItemSizeBottomVO">
+		<id property="itm_btm_detail" column="itm_btm_detail" />
+		<result property="itm_btm_user" column="itm_btm_user" />
+		<result property="itm_btm_size" column="itm_btm_size" />
+		<result property="itm_btm_outseam" column="itm_btm_outseam"/>
+		<result property="itm_btm_waist" column="itm_btm_waist"/>
+		<result property="itm_btm_bottom" column="itm_btm_bottom"/>
+		<result property="itm_btm_rise" column="itm_btm_rise"/>
+		<result property="itm_btm_thigh" column="itm_btm_thigh"/>
+		<result property="itm_btm_hem" column="itm_btm_hem"/>
+	</resultMap>
+	
+	<!-- 회원가입 SQL작성 -->
+	<insert id="insertisb">
+		INSERT INTO ITEM_SIZE_BOTTOM_TBL 
+		(itm_btm_detail,itm_btm_user,itm_btm_size,itm_btm_outseam,itm_btm_waist,itm_btm_bottom,itm_btm_rise,itm_btm_thigh,itm_btm_hem) 
+		VALUES (#{itm_btm_detail},#{itm_btm_user},#{itm_btm_size},#{itm_btm_outseam},#{itm_btm_waist},#{itm_btm_bottom},#{itm_btm_rise},#{itm_btm_thigh},#{itm_btm_hem})
+	</insert>
+<!-- 	<update id="updateisb">
+	UPDATE  ITEM_SIZE_BOTTOM_TBL
+		SET 
+			my_btm_outseam = #{my_btm_outseam}, 
+			my_btm_waist = #{my_btm_waist},
+			my_btm_thigh =#{my_btm_thigh},
+			my_btm_hem =#{my_btm_hem},
+			my_btm_bottom =#{my_btm_bottom},
+			my_btm_rise =#{my_btm_rise}
+		WHERE my_btm_detail = #{my_btm_detail} AND my_btm_user=#{my_btm_user};
+	</update>
+	 -->
+	
+	
+</mapper>
+
+
+
+
+
+
+
+
