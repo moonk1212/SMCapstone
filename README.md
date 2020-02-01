@@ -3,5 +3,5 @@
 
 ## 앱 시연 동영상
 
-[![Video Label](https://youtu.be/TCbL3EoN7SU/0.jpg)](https://youtu.be/TCbL3EoN7SU) Video Label
+[![Video Label](https://www.youtube.com/watch?v=TCbL3EoN7SU/0.jpg)](https://www.youtube.com/watch?v=TCbL3EoN7SU) 
 
